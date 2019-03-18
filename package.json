@@ -1,0 +1,23 @@
+{
+  "name": "react-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch user-collection.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  "now": {
+    "engines": {
+      "node": "8.10.0"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
+}
