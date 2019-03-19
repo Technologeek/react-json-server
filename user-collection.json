@@ -8,14 +8,19 @@
 			"id": 2,
 			"username": "James",
 			"email": "mcholytug@gmail.com"
+		}, {
+			"id": 3,
+			"username": "TestUser",
+			"email": "test@testapipanda.com"
+
 		}
 	],
 	"collections": [{
 			"name": "Api-Test",
 			"description": "Gets all Users-List",
 			"method": "GET",
-			"url": "http://localhost:3004/users/",
-			"userId": 1,
+			"url": "https://ec2-18-203-87-253.eu-west-1.compute.amazonaws.com:3000/users",
+			"userId": 3,
 			"id": 4
 		},
 		{
@@ -23,7 +28,7 @@
 			"description": "Check quote format",
 			"method": "GET",
 			"url": "http://quotes.stormconsultancy.co.uk/random.json",
-			"userId": "1",
+			"userId": "3",
 			"id": 7
 		},
 
@@ -32,7 +37,7 @@
 			"description": "Wrong End-Point",
 			"method": "GET",
 			"url": "http://losscalhost:3004/users/1",
-			"userId": "1",
+			"userId": "3",
 			"id": 11
 		}
 	]
