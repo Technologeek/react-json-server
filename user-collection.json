@@ -1,219 +1,39 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "Rahul",
-      "email": "mcholythug@gmail.com"
-    },
-    {
-      "id": 2,
-      "username": "James",
-      "email": "mcholytug@gmail.com"
-    },
-    {
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "username": "Bart",
-      "email": "bart@simpy.com",
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "email": "bartmilk@simpy.com",
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "email": "morton@jorton.com",
-      "id": 16
-    },
-    {
-      "email": "bart@smarty.com",
-      "id": 17
-    },
-    {
-      "email": "throwaway@gmail.com",
-      "id": 18
-    },
-    {
-      "email": "gasjdasdsa.com",
-      "id": 19
-    },
-    {
-      "email": "sadsadsadsadas",
-      "id": 20
-    },
-    {
-      "email": "asdsadas.ocm",
-      "id": 21
-    },
-    {
-      "username": "Regression",
-      "email": "regressiontest@gmail.com",
-      "id": 22
-    },
-    {
-      "username": "Vape",
-      "email": "vape@vape.com",
-      "id": 23
-    },
-    {
-      "username": "20083299s",
-      "email": "mcholythug@gmail.com",
-      "id": 24
-    },
-    {
-      "username": "20083299s",
-      "email": "mcholythuglee@gmail.com",
-      "id": 25
-    },
-    {
-      "username": "20083299s",
-      "email": "mcholythug@gmail.com",
-      "id": 26
-    },
-    {
-      "username": "20083299s",
-      "email": "mcholythug@gmail.com",
-      "id": 27
-    },
-    {
-      "username": "20083299s",
-      "email": "mcholythug@gmail.com",
-      "id": 28
-    },
-    {
-      "username": "20083299s",
-      "email": "mcholythug@gmail.com",
-      "id": 29
-    },
-    {
-      "username": "20083299",
-      "email": "mcholythug@gmail.com",
-      "id": 30
-    },
-    {
-      "username": "20083299",
-      "email": "mcholythug@gmail.com",
-      "id": 31
-    },
-    {
-      "username": "ssssss",
-      "email": "mcholythug@gmail.com",
-      "id": 32
-    },
-    {
-      "username": "20083299",
-      "email": "mcholythug@gmail.com",
-      "id": 33
-    },
-    {
-      "username": "20083299",
-      "email": "mcholythug@gmail.com",
-      "id": 34
-    },
-    {
-      "username": "20083299",
-      "email": "mcholythug@gmail.com",
-      "id": 35
-    },
-    {
-      "username": "20083299",
-      "email": "mcholythug@gmail.com",
-      "id": 36
-    },
-    {
-      "username": "20083299",
-      "email": "mcholythug@gmail.com",
-      "id": 37
-    },
-    {
-      "username": "20083299ss",
-      "email": "mcholythug@gmail.com",
-      "id": 38
-    }
-  ],
-  "collections": [
-    {
-      "name": "Frabnk",
-      "description": "Honest",
-      "method": "GET",
-      "url": "http://localhost:3004/users/1",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "name": "James Man",
-      "description": "James the goat Man",
-      "method": "GET",
-      "url": "http://localshost:3004/users/1",
-      "id": 5
-    },
-    {
-      "name": "Bacon",
-      "description": "Bacon is the best",
-      "method": "GET",
-      "url": "https ://www.something.com",
-      "userId": "23",
-      "id": 7
-    },
-    {
-      "name": "James Morton",
-      "description": "James is a goat",
-      "method": "GET",
-      "url": "http://localshost:3004/users/1",
-      "id": 8
-    },
-    {
-      "name": "James Morton",
-      "description": "James is a goat",
-      "method": "GET",
-      "url": "http://localhost:3s004/users/1ssgg",
-      "id": 9
-    },
-    {
-      "name": "James Rahul",
-      "description": "James is a gosat",
-      "method": "POST",
-      "url": "http://localhost:3004/usesssrs/1",
-      "id": 10
-    },
-    {
-      "name": "Random",
-      "description": "Random",
-      "method": "GET",
-      "url": "http://losssscalhost:3004/users/1",
-      "userId": "1",
-      "id": 11
-    }
-  ]
+	"users": [{
+			"id": 1,
+			"username": "Rahul",
+			"email": "mcholythug@gmail.com"
+		},
+		{
+			"id": 2,
+			"username": "James",
+			"email": "mcholytug@gmail.com"
+		}
+	],
+	"collections": [{
+			"name": "Api-Test",
+			"description": "Gets all Users-List",
+			"method": "GET",
+			"url": "http://localhost:3004/users/",
+			"userId": 1,
+			"id": 4
+		},
+		{
+			"name": "Quotes Api-Test",
+			"description": "Check quote format",
+			"method": "GET",
+			"url": "http://quotes.stormconsultancy.co.uk/random.json",
+			"userId": "1",
+			"id": 7
+		},
+
+		{
+			"name": "Fail End-point",
+			"description": "Wrong End-Point",
+			"method": "GET",
+			"url": "http://losscalhost:3004/users/1",
+			"userId": "1",
+			"id": 11
+		}
+	]
 }
